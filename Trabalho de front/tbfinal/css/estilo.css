@@ -1,0 +1,16 @@
+.navbar-brand img {
+    max-width: 100px; /* Ajuste o tamanho máximo desejado */
+    height: auto; /* Isso garante que a proporção seja mantida */
+    }
+
+main.flex-shrink-0{
+    background-color:#344c64;
+} 
+
+.d-flex flex-column h-100{
+    background-color: #d3f3f3;
+}
+
+.bg-dark {
+    background-color: #5c748c !important; /* Use !important para garantir que sua regra CSS tenha precedência sobre a classe Bootstrap */
+}
