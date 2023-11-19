@@ -33,7 +33,7 @@
         var table = '<thead class="table-dark"><tr><td></td><td>Nome</td><td>Email</td><td>Profissão</td><td>Telefone</td><td>Descrição</td><td>Apagar</td></tr></thead><tbody>';
         for(var key in listaPainel){
             table += '<tr><td></td><td>'+ formatNome(listaPainel[key].nome) +'</td><td>'+ formatEmail(listaPainel[key].email) +'</td><td>'+ formatProfissao(listaPainel[key].profissao) +'</td><td>'+ formatPhone(listaPainel[key].phone) +'</td><td>'+
-            formatMessage(listaPainel[key].message) +'</td><td>'+ listaPainel[key].hoje +'</td><td><img src="img/trash.png" width="25px" onclick="deleteData('+key+');"></td></tr>';
+            formatMessage(listaPainel[key].message)  +'</td><td><img src="img/trash.png" width="25px" onclick="deleteData('+key+');"></td></tr>';
         }
         table += '</tbody>';
         document.getElementById('listTable').innerHTML = table;
